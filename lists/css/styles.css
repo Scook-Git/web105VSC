@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2, h3{
+    text-align:center;
+    color: green;
+}
+
+dt{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+dd{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
