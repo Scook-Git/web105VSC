@@ -1,0 +1,85 @@
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 30px;
+}
+
+tr.schedule:hover{
+    background: lightblue;
+}
+
+td{
+    width:12%;
+    border: 1px solid black;
+}
+
+th{
+    background: darkgreen;
+    color: white;
+    width: 12%;
+    border: 1px solid white;
+}
+
+.class{
+    background: lightgreen;
+    color: black;
+    text-align: center;
+}
+
+.calendar{
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid darkgreen;
+    td{
+        height: 90px;
+        text-align: right;
+        vertical-align: top;
+        ul{
+            text-align: left;
+            list-style: none;
+        }
+    }
+    td:hover{
+        background: lightblue;
+    }
+    td.weekend{
+        background: lightgreen;
+    }
+    td.weekend:hover{
+        background: lightblue;
+    }
+}
+
+nav{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 3;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 5px;
+    background: darkgreen;
+    padding: 5px 10px;
+    color: white;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    color: darkgreen;
+    background: white;
+}
