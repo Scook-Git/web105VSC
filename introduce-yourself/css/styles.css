@@ -3,6 +3,7 @@ body{
     font-family:'Courier New', Courier, monospace;
     font-size: medium;
     color: black;
+    text-align: center;
 }
 
 .container{
@@ -46,6 +47,10 @@ img{
     border: 2px solid darkgreen;
 }
 
+ul{
+    list-style: none;
+}
+
 .column{
     float: left;
     width: 50%;
@@ -57,6 +62,10 @@ img{
     display: table;
 }
 
-#front{
-    width: 60%;
+#device{
+    width: 95%;
+}
+
+#dnd{
+    width: 95%;
 }
