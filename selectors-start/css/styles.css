@@ -53,6 +53,27 @@ aside{
     border: 2px solid brown;
 }
 
+nav{
+    color: aquamarine;
+    text-align: right;
+}
+
+header{
+    text-align: left;
+    color: blueviolet;
+}
+
 footer{
+    border: 2px solid red;
     clear: both;
+}
+
+#meri{
+    text-align: left;
+    font-weight: bold;
+}
+
+#lorem{
+    width: 95%;
+    height: 80%;
 }
