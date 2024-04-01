@@ -1,0 +1,37 @@
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(255,255,255,1) 50%, rgba(148,187,233,1) 100%);
+}
+
+#coloumns{
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+}
+
+#radius{
+    border: solid 2px black;
+    -webkit-border-radius: 10px 20px 30px 40px;
+    border-radius: 10px 20px 30px 40px;
+}
+
+#boxshadow{
+    -webkit-box-shadow: 20px 10px 5px 5px #000000;
+    box-shadow: 20px 10px 5px 5px #000000;
+}
+
+#textshadow{
+    text-shadow: 3px 3px 2px #FF0000;
+}
+
+#flag1{
+    -moz-transform: rotate(12deg) translateX(20px) translateY(-20px);
+    -webkit-transform: rotate(12deg) translateX(20px) translateY(-20px);
+    -o-transform: rotate(12deg) translateX(20px) translateY(-20px);
+    -ms-transform: rotate(12deg) translateX(20px) translateY(-20px);
+    transform: rotate(12deg) translateX(20px) translateY(-20px);
+}
+
